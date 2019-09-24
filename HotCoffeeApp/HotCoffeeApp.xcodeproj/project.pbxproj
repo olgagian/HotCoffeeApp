@@ -18,6 +18,7 @@
 		0B1B68252335098900DE1C7C /* NSManagedContext+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1B68242335098900DE1C7C /* NSManagedContext+Extensions.swift */; };
 		0B1B682823350C0F00DE1C7C /* AddOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1B682723350C0F00DE1C7C /* AddOrderViewModel.swift */; };
 		0B1B682B23350D9000DE1C7C /* AddOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1B682A23350D9000DE1C7C /* AddOrderView.swift */; };
+		0B63736C233A5DAF00C95257 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B63736B233A5DAF00C95257 /* OrderListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		0B1B68242335098900DE1C7C /* NSManagedContext+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSManagedContext+Extensions.swift"; sourceTree = "<group>"; };
 		0B1B682723350C0F00DE1C7C /* AddOrderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderViewModel.swift; sourceTree = "<group>"; };
 		0B1B682A23350D9000DE1C7C /* AddOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrderView.swift; sourceTree = "<group>"; };
+		0B63736B233A5DAF00C95257 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +74,6 @@
 				0B1B68202335000200DE1C7C /* Managers */,
 				0B1B68092334FB0E00DE1C7C /* AppDelegate.swift */,
 				0B1B680B2334FB0E00DE1C7C /* SceneDelegate.swift */,
-				0B1B68102334FB0E00DE1C7C /* ContentView.swift */,
 				0B1B68122334FB0F00DE1C7C /* Assets.xcassets */,
 				0B1B68172334FB0F00DE1C7C /* LaunchScreen.storyboard */,
 				0B1B681A2334FB0F00DE1C7C /* Info.plist */,
@@ -110,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				0B1B682723350C0F00DE1C7C /* AddOrderViewModel.swift */,
+				0B63736B233A5DAF00C95257 /* OrderListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				0B1B682A23350D9000DE1C7C /* AddOrderView.swift */,
+				0B1B68102334FB0E00DE1C7C /* ContentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				0B1B68252335098900DE1C7C /* NSManagedContext+Extensions.swift in Sources */,
 				0B1B680A2334FB0E00DE1C7C /* AppDelegate.swift in Sources */,
 				0B1B680F2334FB0E00DE1C7C /* HotCoffeeApp.xcdatamodeld in Sources */,
+				0B63736C233A5DAF00C95257 /* OrderListViewModel.swift in Sources */,
 				0B1B68112334FB0E00DE1C7C /* ContentView.swift in Sources */,
 				0B1B68222335001B00DE1C7C /* CoreDataManager.swift in Sources */,
 				0B1B682B23350D9000DE1C7C /* AddOrderView.swift in Sources */,
